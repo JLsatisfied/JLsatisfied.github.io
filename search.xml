@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[新的文章]]></title>
     <url>%2F2019%2F07%2F14%2F%E6%96%B0%E7%9A%84%E6%96%87%E7%AB%A0%2F</url>
-    <content type="text"><![CDATA[Quick StartCreate a new post]]></content>
+    <content type="text"><![CDATA[ES6前言比如一个数组: 12345var totals = [ &#123;name: '张三', bookCount: 6&#125;, &#123;name: '李四', bookCount: 10&#125;, &#123;name: '王五', bookCount: 7&#125;] foreach把书本的数量相加 1totals.foreach(total =&gt; &#123;total += bookCount&#125;) map也可以做同样的事情，但是拥有返回值，返回一个新的数组，并且不会改变原数组]]></content>
       <categories>
         <category>Vue</category>
       </categories>

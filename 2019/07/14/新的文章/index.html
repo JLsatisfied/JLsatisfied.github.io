@@ -71,7 +71,7 @@
     scheme: 'Mist',
     version: '7.2.0',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     copycode: {"enable":false,"show_result":false,"style":null},
     fancybox: false,
     fastclick: false,
@@ -95,18 +95,18 @@
 
 
 
-  <meta name="description" content="Quick StartCreate a new post">
+  <meta name="description" content="ES6前言比如一个数组: 12345var totals = [   &amp;#123;name: &apos;张三&apos;, bookCount: 6&amp;#125;,   &amp;#123;name: &apos;李四&apos;, bookCount: 10&amp;#125;,   &amp;#123;name: &apos;王五&apos;, bookCount: 7&amp;#125;]  foreach把书本的数量相加 1totals.foreach(total =&amp;gt; &amp;">
 <meta name="keywords" content="Hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="新的文章">
 <meta property="og:url" content="http://JLsatisfied.github.io/2019/07/14/新的文章/index.html">
 <meta property="og:site_name" content="随心的博客">
-<meta property="og:description" content="Quick StartCreate a new post">
+<meta property="og:description" content="ES6前言比如一个数组: 12345var totals = [   &amp;#123;name: &apos;张三&apos;, bookCount: 6&amp;#125;,   &amp;#123;name: &apos;李四&apos;, bookCount: 10&amp;#125;,   &amp;#123;name: &apos;王五&apos;, bookCount: 7&amp;#125;]  foreach把书本的数量相加 1totals.foreach(total =&amp;gt; &amp;">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-14T08:40:21.597Z">
+<meta property="og:updated_time" content="2019-07-17T09:26:13.372Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="新的文章">
-<meta name="twitter:description" content="Quick StartCreate a new post">
+<meta name="twitter:description" content="ES6前言比如一个数组: 12345var totals = [   &amp;#123;name: &apos;张三&apos;, bookCount: 6&amp;#125;,   &amp;#123;name: &apos;李四&apos;, bookCount: 10&amp;#125;,   &amp;#123;name: &apos;王五&apos;, bookCount: 7&amp;#125;]  foreach把书本的数量相加 1totals.foreach(total =&amp;gt; &amp;">
 
 
 
@@ -391,13 +391,23 @@
                 
               
 
-              <time title="创建时间：2019-07-14 12:10:26 / 修改时间：16:40:21" itemprop="dateCreated datePublished" datetime="2019-07-14T12:10:26+08:00">2019-07-14</time>
+              <time title="创建时间：2019-07-14 12:10:26" itemprop="dateCreated datePublished" datetime="2019-07-14T12:10:26+08:00">2019-07-14</time>
             </span>
           
 
           
             
 
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-17 17:26:13" itemprop="dateModified" datetime="2019-07-17T17:26:13+08:00">2019-07-17</time>
+              </span>
             
           
 
@@ -427,6 +437,14 @@
           
 
           
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+                 阅读次数： 
+                <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+              </span>
+            </span>
+          
 
           
 
@@ -450,7 +468,14 @@
       
 
       
-        <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3>
+        <h2 id="ES6"><a href="#ES6" class="headerlink" title="ES6"></a>ES6</h2><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>比如一个数组:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">var totals = [</span><br><span class="line">   &#123;name: <span class="string">'张三'</span>, bookCount: 6&#125;,</span><br><span class="line">   &#123;name: <span class="string">'李四'</span>, bookCount: 10&#125;,</span><br><span class="line">   &#123;name: <span class="string">'王五'</span>, bookCount: 7&#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+
+<h3 id="foreach"><a href="#foreach" class="headerlink" title="foreach"></a>foreach</h3><p>把书本的数量相加</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">totals.foreach(total =&gt; &#123;total += bookCount&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>map也可以做同样的事情，但是拥有返回值，返回一个新的数组，并且不会改变原数组</p>
+
       
     </div>
 
@@ -672,7 +697,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#ES6"><span class="nav-number">1.</span> <span class="nav-text">ES6</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#foreach"><span class="nav-number">1.2.</span> <span class="nav-text">foreach</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -719,6 +744,32 @@
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
 
 
 
@@ -734,6 +785,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     

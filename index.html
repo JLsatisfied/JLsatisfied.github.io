@@ -71,7 +71,7 @@
     scheme: 'Mist',
     version: '7.2.0',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     copycode: {"enable":false,"show_result":false,"style":null},
     fancybox: false,
     fastclick: false,
@@ -392,13 +392,23 @@
                 
               
 
-              <time title="创建时间：2019-07-14 12:10:26 / 修改时间：16:40:21" itemprop="dateCreated datePublished" datetime="2019-07-14T12:10:26+08:00">2019-07-14</time>
+              <time title="创建时间：2019-07-14 12:10:26" itemprop="dateCreated datePublished" datetime="2019-07-14T12:10:26+08:00">2019-07-14</time>
             </span>
           
 
           
             
 
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-17 17:26:13" itemprop="dateModified" datetime="2019-07-17T17:26:13+08:00">2019-07-17</time>
+              </span>
             
           
 
@@ -454,8 +464,11 @@
         
           
             <p>
-              Quick StartCreate a new post
-              
+              ES6前言比如一个数组:
+var totals = [   &#123;name: '张三', bookCount: 6&#125;,   &#123;name: '李四', bookCount: 10&#125;,   &#123;name: '王五', bookCount: 7&#125;]
+
+
+              ...
             </p>
           <!--noindex-->
           
@@ -841,6 +854,32 @@
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
 
 
 
@@ -856,6 +895,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
